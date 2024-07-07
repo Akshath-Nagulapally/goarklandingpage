@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "The Dev-Ex of Vercel/Heroku + affordability of AWS",
+  description: "Best of both worlds",
   // other metadata
 };
 
@@ -23,14 +23,14 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
+      {/* <Video />
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
       <Pricing />
       <Blog />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
